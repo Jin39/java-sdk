@@ -34,6 +34,7 @@ public abstract class TerminalResponse implements IDeviceResponse {
     protected String entryMethod;
     protected String authorizationCode;
     protected String approvalCode;
+    protected String posSequenceNbr;
     protected BigDecimal transactionAmount;
     protected BigDecimal authorizedAmount;
     protected BigDecimal amountDue;
@@ -83,6 +84,7 @@ public abstract class TerminalResponse implements IDeviceResponse {
     protected String applicationInterchangeProfile;
     protected String dedicatedFileName;
     protected String authorizedResponse;
+    protected String terminalTransactionQualifiers;
     protected String terminalVerificationResult;
     protected String transactionPin;
     protected String transactionDate;
